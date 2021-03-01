@@ -13,8 +13,8 @@ export default defineConfig({
     base: "/",
     plugins: [
         createVuePlugin({ jsx: true }),
-        require("tailwindcss"),
-        require("autoprefixer")
+        // require("tailwindcss"),
+        // require("autoprefixer")
         // vueJsx(),
         // vue(),
     ],
@@ -22,13 +22,13 @@ export default defineConfig({
     //     include: ["lodash", 'ksc-components']
     // },
     css: {
-        modules: {
-            include: /\.css$/,
-            exclude: /node_modules/
-        },
-        postcss: {
-
-        }
+        // modules: {
+        //     include: /\.css$/,
+        //     exclude: /node_modules/
+        // },
+        // postcss: {
+        //
+        // }
     },
     server: {
         proxy: {
